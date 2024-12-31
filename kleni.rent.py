@@ -123,7 +123,7 @@ def main():
     st.sidebar.subheader("Κανονικές Περιόδους Ενοικίασης")
     τιμή_κανονικές = st.sidebar.number_input(
         "Τιμή ενοικίου για τις κανονικές περιόδους (€ ανά μέρα)",
-        min_value=20.0,
+        min_value=0.0,
         max_value=300.0,
         value=50.0,
         step=10.0
